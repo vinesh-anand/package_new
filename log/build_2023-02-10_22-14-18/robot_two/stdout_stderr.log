@@ -1,0 +1,15 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/agvdev/robot_model/install/robot_two/share/robot_two/description/agv_tov.gazebo
+-- Symlinking: /home/agvdev/robot_model/install/robot_two/share/robot_two/description/agv_tov.trans
+-- Symlinking: /home/agvdev/robot_model/install/robot_two/share/robot_two/description/agv_tov.xacro
+-- Symlinking: /home/agvdev/robot_model/install/robot_two/share/robot_two/description/materials.xacro
+-- Symlinking: /home/agvdev/robot_model/install/robot_two/share/robot_two/launch/agv_tov.launch.py
+CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+  ament_cmake_symlink_install_directory() can't find
+  '/home/agvdev/robot_model/src/robot_two/worlds'
+Call Stack (most recent call first):
+  ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+  cmake_install.cmake:41 (include)
+
+

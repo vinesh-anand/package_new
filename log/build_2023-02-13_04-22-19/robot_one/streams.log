@@ -1,0 +1,41 @@
+[0.027s] Invoking command in '/home/agvdev/robot_model/build/robot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/agvdev/robot_model/build/robot_one -- -j2 -l2
+[0.210s] Invoked command in '/home/agvdev/robot_model/build/robot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/agvdev/robot_model/build/robot_one -- -j2 -l2
+[0.288s] Invoking command in '/home/agvdev/robot_model/build/robot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/agvdev/robot_model/build/robot_one
+[0.326s] -- Install configuration: ""
+[0.327s] -- Execute custom install script
+[0.327s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/config/drive_bot.rviz
+[0.327s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/config/joystick.yaml
+[0.327s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/config/main.rviz
+[0.331s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/config/mapper_params_offline.yaml
+[0.331s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/config/mapper_params_online_async.yaml
+[0.332s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/config/ros_controller.yaml
+[0.332s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/config/view_bot.rviz
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/inertial_macros.xacro
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/lidar.xacro
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/ro_control.xacro
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/robot.urdf.xacro
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/robot_core.xacro
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/ros2_control.xacro
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/twist_mux.yaml
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/launch/joystick.launch.py
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/launch/ro.launch.py
+[0.343s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/launch/rsp.launch.py
+[0.346s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/worlds/building/model.config
+[0.346s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/worlds/building/model.sdf
+[0.346s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/worlds/obstacle.world
+[0.346s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/ament_index/resource_index/package_run_dependencies/robot_one
+[0.356s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/ament_index/resource_index/parent_prefix_path/robot_one
+[0.356s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/environment/ament_prefix_path.sh
+[0.356s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/environment/ament_prefix_path.dsv
+[0.357s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/environment/path.sh
+[0.357s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/environment/path.dsv
+[0.357s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/local_setup.bash
+[0.357s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/local_setup.sh
+[0.357s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/local_setup.zsh
+[0.357s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/local_setup.dsv
+[0.357s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/package.dsv
+[0.391s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/ament_index/resource_index/packages/robot_one
+[0.392s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/cmake/robot_oneConfig.cmake
+[0.392s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/cmake/robot_oneConfig-version.cmake
+[0.393s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/package.xml
+[0.407s] Invoked command in '/home/agvdev/robot_model/build/robot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/agvdev/robot_model/build/robot_one

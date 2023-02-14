@@ -1,0 +1,18 @@
+[0.069s] Invoking command in '/home/agvdev/robot_model/build/robot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/agvdev/robot_model/build/robot_one -- -j2 -l2
+[0.256s] Invoked command in '/home/agvdev/robot_model/build/robot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/agvdev/robot_model/build/robot_one -- -j2 -l2
+[0.363s] Invoking command in '/home/agvdev/robot_model/build/robot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/agvdev/robot_model/build/robot_one
+[0.389s] -- Install configuration: ""
+[0.391s] -- Execute custom install script
+[0.394s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/inertial_macros.xacro
+[0.395s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/robot.urdf.xacro
+[0.396s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/robot_core.xacro
+[0.397s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/launch/rsp.launch.py
+[0.398s] CMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[0.399s]   ament_cmake_symlink_install_directory() can't find
+[0.399s]   '/home/agvdev/robot_model/src/robot_one/worlds'
+[0.400s] Call Stack (most recent call first):
+[0.400s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[0.401s]   cmake_install.cmake:41 (include)
+[0.401s] 
+[0.402s] 
+[0.406s] Invoked command in '/home/agvdev/robot_model/build/robot_one' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/agvdev/robot_model/build/robot_one

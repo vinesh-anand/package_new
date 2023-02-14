@@ -1,0 +1,50 @@
+[0.164s] Invoking command in '/home/agvdev/robot_model/build/robot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/agvdev/robot_model/src/robot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agvdev/robot_model/install/robot_one
+[0.984s] -- The C compiler identification is GNU 9.4.0
+[1.552s] -- The CXX compiler identification is GNU 9.4.0
+[1.615s] -- Check for working C compiler: /usr/bin/cc
+[2.115s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.125s] -- Detecting C compiler ABI info
+[2.400s] -- Detecting C compiler ABI info - done
+[2.492s] -- Detecting C compile features
+[2.496s] -- Detecting C compile features - done
+[2.518s] -- Check for working CXX compiler: /usr/bin/c++
+[2.951s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.959s] -- Detecting CXX compiler ABI info
+[3.377s] -- Detecting CXX compiler ABI info - done
+[3.464s] -- Detecting CXX compile features
+[3.470s] -- Detecting CXX compile features - done
+[3.510s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.654s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.655s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.834s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.017s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.503s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.522s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.528s] -- Added test 'lint_cmake' to check CMake code style
+[5.532s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[5.541s] -- Added test 'xmllint' to check XML markup files
+[5.557s] -- Configuring done
+[5.570s] -- Generating done
+[5.576s] -- Build files have been written to: /home/agvdev/robot_model/build/robot_one
+[5.591s] Invoked command in '/home/agvdev/robot_model/build/robot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/agvdev/robot_model/src/robot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agvdev/robot_model/install/robot_one
+[5.613s] Invoking command in '/home/agvdev/robot_model/build/robot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/agvdev/robot_model/build/robot_one -- -j2 -l2
+[5.834s] Invoked command in '/home/agvdev/robot_model/build/robot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/agvdev/robot_model/build/robot_one -- -j2 -l2
+[6.040s] Invoking command in '/home/agvdev/robot_model/build/robot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/agvdev/robot_model/build/robot_one
+[6.090s] -- Install configuration: ""
+[6.091s] -- Execute custom install script
+[6.094s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/ament_index/resource_index/package_run_dependencies/robot_one
+[6.155s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/ament_index/resource_index/parent_prefix_path/robot_one
+[6.211s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/environment/ament_prefix_path.sh
+[6.265s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/environment/ament_prefix_path.dsv
+[6.315s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/environment/path.sh
+[6.357s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/environment/path.dsv
+[6.397s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/local_setup.bash
+[6.443s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/local_setup.sh
+[6.500s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/local_setup.zsh
+[6.544s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/local_setup.dsv
+[6.581s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/package.dsv
+[6.640s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/ament_index/resource_index/packages/robot_one
+[6.694s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/cmake/robot_oneConfig.cmake
+[6.746s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/cmake/robot_oneConfig-version.cmake
+[6.798s] -- Symlinking: /home/agvdev/robot_model/install/robot_one/share/robot_one/package.xml
+[6.860s] Invoked command in '/home/agvdev/robot_model/build/robot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/agvdev/robot_model/build/robot_one

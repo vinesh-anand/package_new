@@ -1,0 +1,6 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/inertial_macros.xacro
+-- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/robot.urdf.xacro
+-- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/description/robot_core.xacro
+-- Up-to-date symlink: /home/agvdev/robot_model/install/robot_one/share/robot_one/launch/rsp.launch.py

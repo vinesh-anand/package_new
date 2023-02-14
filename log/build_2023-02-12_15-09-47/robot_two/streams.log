@@ -1,0 +1,27 @@
+[0.046s] Invoking command in '/home/agvdev/robot_model/build/robot_two': /usr/bin/cmake --build /home/agvdev/robot_model/build/robot_two -- -j2 -l2
+[0.167s] Invoked command in '/home/agvdev/robot_model/build/robot_two' returned '0': /usr/bin/cmake --build /home/agvdev/robot_model/build/robot_two -- -j2 -l2
+[0.233s] Invoking command in '/home/agvdev/robot_model/build/robot_two': /usr/bin/cmake --install /home/agvdev/robot_model/build/robot_two
+[0.260s] -- Install configuration: ""
+[0.260s] -- Execute custom install script
+[0.261s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/description/agv_tov.gazebo
+[0.261s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/description/agv_tov.trans
+[0.262s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/description/agv_tov.xacro
+[0.262s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/description/materials.xacro
+[0.262s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/launch/agv_tov.launch.py
+[0.262s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/launch/agv_tov_gazebo.launch.py
+[0.263s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/ament_index/resource_index/package_run_dependencies/robot_two
+[0.263s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/ament_index/resource_index/parent_prefix_path/robot_two
+[0.264s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/environment/ament_prefix_path.sh
+[0.265s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/environment/ament_prefix_path.dsv
+[0.265s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/environment/path.sh
+[0.265s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/environment/path.dsv
+[0.266s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/local_setup.bash
+[0.266s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/local_setup.sh
+[0.268s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/local_setup.zsh
+[0.268s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/local_setup.dsv
+[0.268s] -- Symlinking: /home/agvdev/robot_model/install/robot_two/share/robot_two/package.dsv
+[0.292s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/ament_index/resource_index/packages/robot_two
+[0.293s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/cmake/robot_twoConfig.cmake
+[0.293s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/cmake/robot_twoConfig-version.cmake
+[0.293s] -- Up-to-date symlink: /home/agvdev/robot_model/install/robot_two/share/robot_two/package.xml
+[0.321s] Invoked command in '/home/agvdev/robot_model/build/robot_two' returned '0': /usr/bin/cmake --install /home/agvdev/robot_model/build/robot_two

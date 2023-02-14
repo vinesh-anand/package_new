@@ -1,0 +1,140 @@
+<?xml version="1.0" ?>
+<robot name="agv_tov" xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+<xacro:include filename="$(find robot_two)/description/materials.xacro" />
+<xacro:include filename="$(find robot_two)/description/agv_tov.trans" />
+<xacro:include filename="$(find robot_two)/description/agv_tov.gazebo" />
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.022611676400965647 6.058500985421191e-05 0.1310385269338436" rpy="0 0 0"/>
+    <mass value="18.769425535268965"/>
+    <inertia ixx="0.929197" iyy="0.746272" izz="1.429864" ixy="-0.000145" iyz="0.000111" ixz="0.021353"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_two/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_wheel_1">
+  <inertial>
+    <origin xyz="-2.235174212383839e-09 0.012499999999999956 -1.490116086078075e-10" rpy="0 0 0"/>
+    <mass value="0.1826050729899067"/>
+    <inertia ixx="0.000124" iyy="0.000228" izz="0.000124" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.15 -0.3095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.15 -0.3095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/left_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_wheel_1">
+  <inertial>
+    <origin xyz="0.0 -0.012500000000000011 0.0" rpy="0 0 0"/>
+    <mass value="0.1826050729899067"/>
+    <inertia ixx="0.000124" iyy="0.000228" izz="0.000124" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.15 0.3095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.15 0.3095 -0.05" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/right_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lidar_1">
+  <inertial>
+    <origin xyz="-5.551115123125783e-17 -3.618764437576269e-17 0.0050000000000000044" rpy="0 0 0"/>
+    <mass value="0.020813051330032376"/>
+    <inertia ixx="3e-06" iyy="3e-06" izz="7e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.192 0.0 -0.122" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.192 0.0 -0.122" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/lidar_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="troll_1">
+  <inertial>
+    <origin xyz="-0.37193566331574424 -1.3573084735559999e-08 -0.06755066688671008" rpy="0 0 0"/>
+    <mass value="14.993534531242972"/>
+    <inertia ixx="0.755152" iyy="0.583551" izz="1.195149" ixy="0.0" iyz="-0.0" ixz="-0.010948"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.382 -0.0 -0.17" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/troll_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.382 -0.0 -0.17" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://install/robot_two/share/robot_model/src/robot_two/meshes/troll_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rev1" type="continuous">
+  <origin xyz="-0.15 0.3095 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="left_wheel_1"/>
+  <axis xyz="0.0 1.0 0.0"/>
+</joint>
+
+<joint name="Rev2" type="continuous">
+  <origin xyz="-0.15 -0.3095 0.05" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="right_wheel_1"/>
+  <axis xyz="0.0 -1.0 0.0"/>
+</joint>
+
+<joint name="Rigid3" type="fixed">
+  <origin xyz="0.192 0.0 0.122" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="lidar_1"/>
+</joint>
+
+<joint name="Rev4" type="revolute">
+  <origin xyz="-0.382 0.0 0.17" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="troll_1"/>
+  <axis xyz="0.0 0.0 1.0"/>
+  <limit upper="0.785398" lower="-0.785398" effort="100" velocity="100"/>
+</joint>
+
+</robot>
